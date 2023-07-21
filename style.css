@@ -1,0 +1,105 @@
+.body{
+    font-family: Arial;
+  }
+  .h-menu {
+    font-size: 20px;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .p{
+    color: rgb(23, 155, 155);
+    text-align: center;
+  }
+
+  .h-menu li {
+      display: inline-block;
+      margin-right: 10px;
+  }
+
+  .h-menu li a {
+    color: rgb(23, 155, 155);
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  .image{
+    position :relative;
+    display: block;
+    width:100%;
+    height: 500px;
+  }
+
+.container {
+position: relative;
+}
+
+.profile{
+display: block;
+height: 190px;
+width: 150px;
+margin: 0 auto 0 auto;
+padding: 20px;
+border-radius: 150px;
+}
+
+
+.overlay {
+position: absolute; 
+bottom: 0; 
+background: rgb(242, 217, 217);
+background: rgba(178, 178, 178, 0.5);
+color: #f1f1f1; 
+width: 100%;
+transition: .5s ease;
+opacity:0;
+color:rgb(0, 215, 215);
+font-size: 20px;
+padding: 20px;
+text-align: center;
+}
+
+.container:hover .overlay{
+opacity: 1;
+}
+
+.hr{
+height:2px;
+width : 25%;
+border-width:25%;
+color:rgb(23, 155, 155);
+background-color:rgb(23, 155, 155);
+
+}
+
+.des img{
+
+display: block;
+position: relative;
+margin-left: 250px;
+
+height: 300px;
+width: 300px;
+
+padding: 20px;
+border-radius: 50px;
+
+
+
+}
+
+.des{
+display : flex;
+color: rgb(23, 155, 155);
+text-align: left;
+margin-top: 50px;
+
+}
+.resimage{
+width: 100%;
+max-width: 400px;
+height: auto;
+
+}
